@@ -30,15 +30,21 @@ body {
 .box-0    { background: #b7a5cd;}
 .box-sign { background: #0092ce;}
 
-.display {
+.field {
   background: #333;
   height: 20vh;
   width: 100vw;
-  color: #5dfc0a;       
+  color: #49e20e;
   font-family: digital;
   font-size: 4em; 
   font-weight: bold;
   text-align: right;
+}
+
+.display {
+  position: absolute;
+  right: 5vw;
+  top: 5vh;
 }
 
 .container {
