@@ -1,4 +1,7 @@
-
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
 
 /* button colors */
@@ -39,7 +42,8 @@
   color: white;
   font-size: 3em;
   text-align: center;
-  text-shadow: 4px 4px rgba(0,0,0,0.1);
+  text-shadow: 3px 3px rgba(0,0,0,0.1);
   padding: 1%;
-  width: 23%;
+  width: 25%;
+  border: none;
 }
