@@ -1,0 +1,45 @@
+
+
+
+/* button colors */
+.box-c    { background: #0092ce;}
+.box-mod  { background: #33a7d8;}
+.box-div  { background: #85cae7;}
+.box-mult { background: #0154a4;}
+.box-9    { background: #3276b5;}
+.box-8    { background: #86acd3;}
+.box-7    { background: #6b439b;}
+.box-sub  { background: #8869ad;}
+.box-6    { background: #b7a5cd;}
+.box-5    { background: #0092ce;}
+.box-4    { background: #33a7d8;}
+.box-plus { background: #85cae7;}
+.box-3    { background: #0154a4;}
+.box-2    { background: #3276b5;}
+.box-1    { background: #86acd3;}
+.box-eql  { background: #6b439b;}
+.box-dot  { background: #8869ad;}
+.box-0    { background: #b7a5cd;}
+.box-sign { background: #0092ce;}
+
+.display {
+  background: #333;
+  height: 20vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+.box {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 4px 4px rgba(0,0,0,0.1);
+  padding: 1%;
+  width: 23%;
+}
