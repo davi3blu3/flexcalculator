@@ -31,7 +31,7 @@ body {
 .box-sign { background: #0092ce;}
 
 .field {
-  background: #333;
+  background: #444;
   height: 20vh;
   width: 100vw;
   color: #49e20e;
@@ -62,4 +62,5 @@ body {
   padding: 1%;
   width: 25%;
   border: none;
+  outline: none;
 }
