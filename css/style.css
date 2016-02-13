@@ -33,8 +33,9 @@ body {
 .field {
   background: #444;
   height: 20vh;
+  min-height: 75px;
   width: 100vw;
-  color: #49e20e;
+  color: #12F3FF;
   font-family: digital;
   font-size: 4em; 
   font-weight: bold;
