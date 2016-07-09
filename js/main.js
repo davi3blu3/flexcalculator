@@ -116,28 +116,28 @@ $(document).ready(function() {
 
 	// CALCULATE CURRENT EQUATION FUNCTION
 	function calculate(array) {
-	switch (equation[1]) {						// calculate equation for appropriate operator
-		case "+":
-			answer = ( equation[0] + equation[2] );
-			break;
-		case "-": 
-			answer = ( equation[0] - equation[2] );
-			break;
-		case "×":
-			answer = ( equation[0] * equation[2] );
-			break;
-		case "÷":
-			answer = ( equation[0] / equation[2] );
-			break;
-		case "%":
-			answer = ( equation[0] % equation[2] );
-			break;
+		switch (array[1]) {						// calculate equation for appropriate operator
+			case "+":
+				answer = ( array[0] + array[2] );
+				break;
+			case "-": 
+				answer = ( array[0] - array[2] );
+				break;
+			case "x":
+				answer = ( array[0] * array[2] );
+				break;
+			case "÷":
+				answer = ( array[0] / array[2] );
+				break;
+			case "%":
+				answer = ( array[0] % array[2] );
+				break;
+		}
+		$(".display").text(answer);	// display answer in DOM
+		memory = [];				// clear previous memory then write new
+		memory.push(array[1]);
+		memory.push(array[2]);
+		equation = [];				// clear equation
 	}
-	$(".display").text(answer);	// display answer in DOM
-	memory = [];				// clear previous memory then write new
-	memory.push(equation[1]);
-	memory.push(equation[2]);
-	equation = [];				// clear equation
-}
 
 });
